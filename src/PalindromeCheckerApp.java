@@ -21,7 +21,6 @@ public class PalindromeCheckerApp {
             stack.push(processedInput.charAt(i));
         }
 
-
         String reversedString = "";
 
         while (!stack.isEmpty()) {
