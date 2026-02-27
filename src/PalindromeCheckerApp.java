@@ -8,7 +8,7 @@ public class PalindromeCheckerApp {
         Queue<Character> queue = new LinkedList<>();
         Stack<Character> stack = new Stack<>();
 
-        // Enqueue characters and push to stack
+
         for (char ch : input.toCharArray()) {
             queue.add(ch);
             stack.push(ch);
